@@ -249,7 +249,7 @@
                         <button
                             type="button"
                             onclick="window.location='{{ route('book-abpk') }}';"
-                            class="btn mb-1 waves-effect waves-light btn-outline-success {{ request()->routeIs('book') ? 'active' : '' }}">
+                            class="btn me-2 mb-1 waves-effect waves-light btn-outline-warning {{ request()->routeIs('book') ? 'active' : '' }}">
                             Book
                         </button>
                     </li>

@@ -238,12 +238,21 @@
                 <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-center">
                   <li class="nav-item px-2 py-2">
                     <button
-    type="button"
-    onclick="window.location='{{ route('home') }}';"
-    class="btn mb-1 waves-effect waves-light btn-outline-success {{ request()->routeIs('home') ? 'active' : '' }}">
-    Home
-</button>
+                        type="button"
+                        onclick="window.location='{{ route('home') }}';"
+                        class="btn mb-1 waves-effect waves-light btn-outline-success {{ request()->routeIs('home') ? 'active' : '' }}">
+                        Home
+                    </button>
                   </li>
+                  {{-- book --}}
+                    <li class="nav-item px-2 py-2">
+                        <button
+                            type="button"
+                            onclick="window.location='{{ route('book-abpk') }}';"
+                            class="btn mb-1 waves-effect waves-light btn-outline-success {{ request()->routeIs('book') ? 'active' : '' }}">
+                            Book
+                        </button>
+                    </li>
                   <li class="nav-item">
                     <button
                     type="button"

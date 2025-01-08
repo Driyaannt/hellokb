@@ -255,18 +255,23 @@
                   </li>
                   <li class="me-2 nav-item dropdown">
                     <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="btn mb-1 waves-effect waves-light btn-outline-warning "><i class="ti ti-book-download"></i></span>
-                      </a>
+                      <span class="btn mb-1 waves-effect waves-light btn-outline-warning">
+                        <i class="ti ti-book-download"></i>
+                      </span>
+                    </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                       <div class="message-body" data-simplebar>
-                        <a href="javascript:void(0)" onclick="window.location='{{ route('book-abpk') }}';" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
-                            <p class="mb-0 fs-3">Book ABPK</p>
+                        <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Metode Kontrasepsi</p>
                         </a>
-                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
-                          <p class="mb-0 fs-3">Coming Soon</p>
+                        <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Kesiapan Memiliki Anak</p>
                         </a>
-                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
-                          <p class="mb-0 fs-3">Coming Soon</p>
+                        <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Kesehatan Reproduksi</p>
+                        </a>
+                        <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Cara Hidup Sehat</p>
                         </a>
                       </div>
                     </div>
@@ -275,4 +280,15 @@
               </div>
             </div>
           </nav>
+
+          <script>
+            function showComingSoon() {
+              Swal.fire({
+                title: 'Coming Soon',
+                text: 'This feature is under development.',
+                icon: 'info',
+                confirmButtonText: 'OK',
+              });
+            }
+          </script>
         </header>

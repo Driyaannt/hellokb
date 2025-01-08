@@ -27,6 +27,17 @@ Route::get('/main-menu', function () {
     return view('layouts.main-menu.menu');
 })->name('menu');
 
+
+Route::get('/menu-kesehatan', function () {
+    if(!session()->has('data_diri')) {
+        return redirect()->route('home');
+    }
+
+    return view('layouts.menu-kesehatan.menu');
+})->name('menu-kesehatan');
+
+
+
 Route::get('/dashboard', function () {
     return view('layouts.dashboard.dashboard');
 })->name('dashboard');

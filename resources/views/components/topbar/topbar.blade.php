@@ -236,7 +236,7 @@
                   </div>
                 </a>
                 <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-center">
-                  <li class="nav-item px-2 py-2">
+                  <li class="nav-item px-2 py-2 me-2">
                     <button
                         type="button"
                         onclick="window.location='{{ route('home') }}';"
@@ -245,24 +245,32 @@
                     </button>
                   </li>
                   {{-- book --}}
-                    <li class="nav-item px-2 py-2">
-                        <button
-                            type="button"
-                            onclick="window.location='{{ route('book-abpk') }}';"
-                            class="btn me-2 mb-1 waves-effect waves-light btn-outline-warning {{ request()->routeIs('book') ? 'active' : '' }}">
-                            Book
-                        </button>
-                    </li>
                   <li class="nav-item">
                     <button
                     type="button"
                     onclick="window.location='{{ route('dashboard') }}';"
-                    class="btn me-3 mb-1 waves-effect waves-light btn-outline-secondary {{ request()->routeIs('dashboard') ? 'active' : '' }}">
+                    class="btn mb-1 waves-effect waves-light btn-outline-secondary {{ request()->routeIs('dashboard') ? 'active' : '' }}">
                     Dashboard
                 </button>
                   </li>
-
-
+                  <li class="me-2 nav-item dropdown">
+                    <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="btn mb-1 waves-effect waves-light btn-outline-warning "><i class="ti ti-book-download"></i></span>
+                      </a>
+                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
+                      <div class="message-body" data-simplebar>
+                        <a href="javascript:void(0)" onclick="window.location='{{ route('book-abpk') }}';" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                            <p class="mb-0 fs-3">Book ABPK</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Coming Soon</p>
+                        </a>
+                        <a href="javascript:void(0)" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                          <p class="mb-0 fs-3">Coming Soon</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>

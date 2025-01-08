@@ -8,7 +8,7 @@
         <div class="card-body px-4 py-3">
           <div class="row align-items-center">
             <div class="col-9">
-              <h4 class="fw-semibold mb-8">Selamat Datang Di Aplikasi KBKUU</h4>
+              <h4 class="fw-semibold mb-8">Selamat Datang Di Aplikasi Hello KB</h4>
               <div class="row gap-2 mt-2">
                 <div class="col-md-5">
                   <button type="button" class="btn d-flex bg-primary-subtle w-100 d-block text-primary">

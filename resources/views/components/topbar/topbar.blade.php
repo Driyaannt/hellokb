@@ -70,8 +70,8 @@
                 </li>
                 <li class="nav-item d-none d-xl-block">
                   <a href="{{route('home')}}" class="text-nowrap nav-link">
-                    <img src="{{ asset('assets/icons/Kbkuu.png') }}" class="dark-logo" width="180" alt="" />
-                    <img src="{{ asset('assets/icons/Kbkuu.png') }}" class="light-logo"  width="180" alt="" />
+                    <img src="{{ asset('assets/icons/Kbkuu.png') }}" class="dark-logo" width="200" alt="" />
+                    <img src="{{ asset('assets/icons/Kbkuu.png') }}" class="light-logo"  width="200" alt="" />
                   </a>
                 </li>
               </ul>

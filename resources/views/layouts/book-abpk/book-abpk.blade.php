@@ -7,9 +7,9 @@
     <div class="card-body px-4 py-3">
         <div class="row align-items-center">
             <div class="col-9">
-                <h4 class="fw-semibold mb-8">Book ABPK</h4>
+                <h4 class="fw-semibold mb-8">Book Metode Kontrasepsi</h4>
                 <p class="text-muted mb-0">
-                    Buku ini berisi materi-materi yang berkaitan dengan ABPK
+                    Buku ini berisi materi-materi yang berkaitan dengan Metode Kontrasepsi
                 </p>
                 <div class="d-flex gap-2 mt-2">
                     {{-- <a href="{{ asset('file/book-abpk.pdf') }}" class="btn btn-primary btn-sm" download>

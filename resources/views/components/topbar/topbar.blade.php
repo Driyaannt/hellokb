@@ -261,7 +261,7 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                       <div class="message-body" data-simplebar>
-                        <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
+                        <a href="{{route('book-abpk')}}" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">
                           <p class="mb-0 fs-3">Metode Kontrasepsi</p>
                         </a>
                         <a href="javascript:void(0)" onclick="showComingSoon()" class="d-flex align-items-center gap-2 py-3 px-4 dropdown-item">

@@ -43,7 +43,9 @@
     <footer class="text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: #FFCCD5 !important; color: white !important;">
-            <p class="text-dark mt-3 fw-bold">By Nesya Polkesbaya | © 2025 KBKUU. All rights reserved.</p>
+            {{-- <p class="text-dark mt-3 fw-bold">By Nesya Polkesbaya | © 2025 KBKUU. All rights reserved.</p> --}}
+            <p class="text-dark text-bold">Hello KB © 2025. All Rights Reserved.</p>
+
         </div>
     </footer>
 

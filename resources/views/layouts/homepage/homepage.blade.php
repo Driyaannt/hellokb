@@ -338,13 +338,14 @@ https://templatemo.com/tm-570-chain-app-dev
 
 
 
+
   <footer id="newsletter">
     <div class="container">
 
       <div class="row">
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p class="text-dark text-bold">By Nesya Windra Polkesbaya © 2025. All Rights Reserved.
+            <p class="text-dark text-bold">Hello KB © 2025. All Rights Reserved.
           {{-- <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p> --}}
           </div>
         </div>

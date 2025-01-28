@@ -32,7 +32,7 @@
               </div>
               <div class="mt-3">
                 <h4 class="card-title mb-1 text-white">
-                  KLIEN BARU MEMILIH METODE KB
+                    KLIEN BARU MEMILIH METODE KB
                 </h4>
               </div>
             </div>
@@ -98,7 +98,7 @@
                 </div>
               </div>
               <div class="mt-4">
-                <h4 class="card-title mb-1 text-white">KLIEN PASCA BERSALIN/MENYUSUI </h4>
+                <h4 class="card-title mb-1 text-white">KLIEN PASCA BERSALIN/MENYUSUI</h4>
               </div>
             </div>
           </a>
@@ -126,11 +126,11 @@
             </div>
           </a>
         </div> --}}
-        {{-- <div
-          class="col-md-4 d-flex align-items-stretch card-container animate__animated animate__fadeInLeft"
+        <div
+          class="col-md-12 d-flex align-items-stretch card-container animate__animated animate__fadeInLeft"
         >
           <a
-            href="javascript:void(0)"
+           href="{{ route('menu-kesehatan') }}"
             class="card text-bg-secondary text-white w-100 card-hover"
           >
             <div class="card-body">
@@ -142,12 +142,12 @@
               </div>
               <div class="mt-4">
                 <h4 class="card-title mb-1 text-white">
-                    KLIEN PADA AKHIR MASA REPRODUKSI
+                    KLIEN MENJAGA KESEHATAN REPRODUKSI
                 </h4>
               </div>
             </div>
           </a>
-        </div> --}}
+        </div>
   </div>
 </div>
 

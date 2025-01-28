@@ -65,6 +65,14 @@ Route::get('/dashboard', function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
+Route::get('/menu-kesehatan', function () {
+    if(!session()->has('data_diri')) {
+        return redirect()->route('home');
+    }
+
+    return view('layouts.menu-kesehatan.menu');
+})->name('menu-kesehatan');
+
 
 
 Route::get('/usage-category', function () {

@@ -931,6 +931,81 @@
     </div>
   </div>
 
+
+<!-- Button -->
+<button class="btn btn-primary p-3 rounded-circle d-flex align-items-center justify-content-center customizer-btn"
+type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-controls="exampleModal">
+<img src="{{asset('assets/icon-rekomendasi/ai-chatbot.gif')}}" width="40px" alt="">
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered"> <!-- Tambahkan kelas untuk ukuran besar dan posisi tengah -->
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Chat AI</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="position-relative overflow-hidden d-flex">
+    <div class="position-relative d-flex flex-grow-1 flex-column">
+      <div class="chat-box p-9" style="height: calc(100vh - 442px)" data-simplebar>
+        <div class="chat-list chat active-chat" data-user-id="1">
+          <div class="hstack gap-3 align-items-start mb-7 justify-content-end">
+            <div class="text-end">
+              <h6 class="fs-2 text-muted">Anda, 2 Minute ago</h6>
+              <div class="p-2 bg-light-info text-dark rounded-1 d-inline-block fs-3"> Apa itu KB? </div>
+            </div>
+          </div>
+          <div class="hstack gap-3 align-items-start mb-7 justify-content-start">
+            <img src="../../dist/images/profile/user-8.jpg" alt="user8" width="40" height="40" class="rounded-circle" />
+            <div>
+              <h6 class="fs-2 text-muted">AI, 2 Minute ago</h6>
+              <div class="p-2 bg-light rounded-1 d-inline-block text-dark fs-3"> KB (Keluarga Berencana) adalah program untuk mengatur jumlah dan jarak kelahiran anak guna meningkatkan kesehatan, kesejahteraan keluarga, dan kualitas hidup masyarakat. </div>
+            </div>
+          </div>
+          <div class="hstack gap-3 align-items-start mb-7 justify-content-end">
+            <div class="text-end">
+              <h6 class="fs-2 text-muted">Anda, Now</h6>
+              <div class="p-2 bg-light-info text-dark mb-1 d-inline-block rounded-1  fs-3"> apakah kita memerlukan kb? </div>
+              <div class="p-2 bg-light-info text-dark rounded-1 fs-3"> dan apa saja jenis kb? </div>
+            </div>
+          </div>
+          <div class="hstack gap-3 align-items-start mb-7 justify-content-start">
+            <img src="../../dist/images/profile/user-8.jpg" alt="user8" width="40" height="40" class="rounded-circle" />
+            <div>
+              <div>
+                <h6 class="fs-2 text-muted">AI, 2 Minute ago</h6>
+                <div class="p-2 bg-light rounded-1 d-inline-block text-dark fs-3"> KB diperlukan untuk menjaga kesehatan ibu dan anak, merencanakan jumlah anak sesuai kemampuan, meningkatkan kesejahteraan keluarga, dan mengendalikan pertumbuhan penduduk. </div>
+                <div class="p-2 bg-light rounded-1 d-inline-block text-dark fs-3"> Jenis KB terdiri dari beberapa metode, yaitu metode hormonal seperti pil, suntik, dan implan; metode alat kontrasepsi seperti IUD (spiral) dan kondom; metode permanen seperti sterilisasi yang mencakup tubektomi untuk wanita dan vasektomi untuk pria; serta metode alami seperti menggunakan kalender atau metode amenorea laktasi (LAM) saat menyusui. </div>
+            </div>
+              <div class="rounded-2 overflow-hidden mt-2">
+                <img src="../../dist/images/products/product-1.jpg" alt="" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-9 py-6 border-top chat-send-message-footer">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center gap-2 w-85">
+            <a class="position-relative nav-icon-hover z-index-5" href="javascript:void(0)"> <i class="ti ti-mood-smile text-dark bg-hover-primary fs-7"></i></a>
+            <input type="text" class="form-control message-type-box text-muted border-0 p-0 ms-2" placeholder="Type a Message" />
+          </div>
+          <ul class="list-unstyledn mb-0 d-flex align-items-center">
+            <li><a class="text-dark px-2 fs-7 bg-hover-primary nav-icon-hover position-relative z-index-5 " href="javascript:void(0)"><i class="ti ti-photo-plus"></i></a></li>
+            <li><a class="text-dark px-2 fs-7 bg-hover-primary nav-icon-hover position-relative z-index-5 " href="javascript:void(0)"><i class="ti ti-paperclip"></i></a></li>
+            <li><a class="text-dark px-2 fs-7 bg-hover-primary nav-icon-hover position-relative z-index-5 " href="javascript:void(0)"><i class="ti ti-microphone"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
    <!-- Modal untuk HIV/IMS -->
    <div class="modal fade" id="hivModal" tabindex="-1" aria-labelledby="hivModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
